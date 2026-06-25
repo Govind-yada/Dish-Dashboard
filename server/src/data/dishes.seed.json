@@ -1,0 +1,50 @@
+[
+  {
+    "dishId": "D001",
+    "dishName": "Margherita Pizza",
+    "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600",
+    "isPublished": false
+  },
+  {
+    "dishId": "D002",
+    "dishName": "Butter Chicken",
+    "imageUrl": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=600",
+    "isPublished": true
+  },
+  {
+    "dishId": "D003",
+    "dishName": "Caesar Salad",
+    "imageUrl": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=600",
+    "isPublished": false
+  },
+  {
+    "dishId": "D004",
+    "dishName": "Spaghetti Carbonara",
+    "imageUrl": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600",
+    "isPublished": true
+  },
+  {
+    "dishId": "D005",
+    "dishName": "Sushi Platter",
+    "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600",
+    "isPublished": false
+  },
+  {
+    "dishId": "D006",
+    "dishName": "Chocolate Lava Cake",
+    "imageUrl": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=600",
+    "isPublished": true
+  },
+  {
+    "dishId": "D007",
+    "dishName": "Vegetable Pad Thai",
+    "imageUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600",
+    "isPublished": false
+  },
+  {
+    "dishId": "D008",
+    "dishName": "Classic Cheeseburger",
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600",
+    "isPublished": true
+  }
+]

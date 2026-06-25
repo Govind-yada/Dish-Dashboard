@@ -1,0 +1,57 @@
+:root {
+  /* --- Token system: kitchen-ticket palette --- */
+  --paper: #faf6ef;
+  --paper-shade: #f1ebdd;
+  --char: #1f1b16;
+  --ink-soft: #5c544a;
+  --rail: #d8cfbc;
+  --live: #3c8c5c;
+  --live-soft: #e3efe7;
+  --draft: #a89f91;
+  --draft-soft: #ece7dd;
+  --stamp-red: #b5432f;
+
+  --display: 'Oswald', 'Bebas Neue', 'Arial Narrow', 'Helvetica Neue Condensed', system-ui, sans-serif;
+  --body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Consolas, monospace;
+
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--paper);
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 23px, rgba(31,27,22,0.018) 24px);
+  color: var(--char);
+  font: 16px/1.5 var(--body);
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
